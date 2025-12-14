@@ -1,10 +1,8 @@
 from flask import Flask, render_template
 import random
-import sys
 from datetime import datetime
 from data import *
 
-p = sys.argv[1]
 app = Flask(__name__)
 
 @app.route("/")
@@ -32,4 +30,4 @@ def time():
 
 
 
-app.run(host="0.0.0.0", port=p)
+app.run(host="0.0.0.0", port=8080)
