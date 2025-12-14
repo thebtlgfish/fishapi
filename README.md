@@ -1,0 +1,2 @@
+# fishapi
+A Simple Api
