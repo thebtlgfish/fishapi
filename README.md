@@ -12,14 +12,14 @@ Currently There Are Not Many EndPoints, Here Is A list Of Them:
 
 # How To Self Host The API
 
-''' bash
+```bash
 git clone https://github.com/thebtlgfish/fishapi
 cd fishapi
-'''
+```
 
 Choose The Port You Want To Run The API On (default set to port 8080)
 
 Run The API
-'''bash
+```bash
 python3 main.py
-'''
+```
