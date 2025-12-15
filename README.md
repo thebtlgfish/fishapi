@@ -19,6 +19,13 @@ cd fishapi
 
 Choose The Port You Want To Run The API On (default set to port 8080)
 
+Install Flask (skip this step if flask is already installed on your machine)
+```bash
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
 Run The API
 ```bash
 python3 main.py
