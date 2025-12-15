@@ -1,0 +1,9 @@
+# Ignore Python virtual environment
+venv/
+
+# Ignore Python cache folders
+__pycache__/
+
+# Ignore specific Python files
+getrequests.py
+test_app.py
